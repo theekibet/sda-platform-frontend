@@ -3,7 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { useAuth } from './contexts/AuthContext';
 import { NotificationProvider } from './contexts/NotificationContext';
 import Layout from './components/layout/Layout';
-import LandingPage from './pages/public/LandingPage';
+import LandingPage from './pages/LandingPage';
 import Auth from './pages/members/Auth';
 import ForgotPassword from './components/auth/ForgotPassword';
 import ResetPassword from './components/auth/ResetPassword';
@@ -54,9 +54,9 @@ import DiscussionDetail from './pages/members/discussions/DiscussionDetail';
 // Search Component
 import SearchResults from './pages/members/SearchResults';
 
-import About from './pages/public/About';
-import Contact from './pages/public/Contact';
-import Faq from './pages/public/Faq';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Faq from './pages/Faq';
 
 // ============ GUARD: Require Username ============
 // Redirects authenticated users without a username to /setup-username

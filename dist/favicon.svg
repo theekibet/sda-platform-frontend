@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>FaithConnect — One cross, many souls</title>
+  <desc>A faith community favicon: diverse believers united around a central golden cross, lit by a flame above, with speech bubbles showing open dialogue.</desc>
+
+  <!-- background -->
+  <rect width="512" height="512" rx="100" fill="#0c1128"/>
+
+  <!-- centre point = 256,256 -->
+  <g transform="translate(256,256)">
+
+    <!-- unity ring -->
+    <circle cx="0" cy="0" r="220" fill="none" stroke="#FCD34D" stroke-width="2" opacity="0.12"/>
+
+    <!-- ── FLAME (Holy Spirit) ── -->
+    <path d="M0,-118 Q-26,-142 -18,-176 Q-8,-204 0,-212 Q8,-204 18,-176 Q26,-142 0,-118Z" fill="#F59E0B"/>
+    <path d="M0,-120 Q-13,-140 -8,-166 Q-2,-184 0,-188 Q2,-184 8,-166 Q13,-140 0,-120Z" fill="#FDE68A"/>
+    <!-- flame rays -->
+    <line x1="0"   y1="-214" x2="0"   y2="-226" stroke="#FDE68A" stroke-width="3"   stroke-linecap="round" opacity="0.7"/>
+    <line x1="18"  y1="-208" x2="26"  y2="-218" stroke="#FDE68A" stroke-width="2.5" stroke-linecap="round" opacity="0.55"/>
+    <line x1="-18" y1="-208" x2="-26" y2="-218" stroke="#FDE68A" stroke-width="2.5" stroke-linecap="round" opacity="0.55"/>
+    <line x1="32"  y1="-196" x2="42"  y2="-202" stroke="#FDE68A" stroke-width="2"   stroke-linecap="round" opacity="0.35"/>
+    <line x1="-32" y1="-196" x2="-42" y2="-202" stroke="#FDE68A" stroke-width="2"   stroke-linecap="round" opacity="0.35"/>
+
+    <!-- star dots -->
+    <circle cx="-150" cy="-170" r="2.5" fill="#fff" opacity="0.3"/>
+    <circle cx="120"  cy="-185" r="2"   fill="#fff" opacity="0.25"/>
+    <circle cx="-80"  cy="-195" r="1.8" fill="#fff" opacity="0.2"/>
+    <circle cx="170"  cy="-150" r="2.5" fill="#fff" opacity="0.28"/>
+    <circle cx="-180" cy="-110" r="1.8" fill="#fff" opacity="0.2"/>
+
+    <!-- ── GOLDEN CROSS ── -->
+    <rect x="-13" y="-110" width="26" height="150" rx="9" fill="#FCD34D"/>
+    <rect x="-48" y="-68"  width="96" height="24"  rx="9" fill="#FCD34D"/>
+    <!-- highlight -->
+    <rect x="-5"  y="-106" width="10" height="140" rx="5" fill="#FEF3C7" opacity="0.3"/>
+
+    <!-- ── LEFT CENTRAL SOUL — rose/pink ── -->
+    <circle cx="-118" cy="-90" r="30" fill="#FDA4AF"/>
+    <path d="M-160 20 Q-160 -38 -118 -50 Q-76 -38 -76 20Z" fill="#E11D48"/>
+    <!-- arm to cross -->
+    <line x1="-76" y1="-18" x2="-48" y2="-36" stroke="#FDA4AF" stroke-width="9" stroke-linecap="round"/>
+    <!-- chat bubble -->
+    <rect x="-210" y="26" width="76" height="40" rx="14" fill="#E11D48" opacity="0.92"/>
+    <polygon points="-152,66 -136,66 -144,86" fill="#E11D48" opacity="0.92"/>
+    <circle cx="-196" cy="46" r="4" fill="#fff" opacity="0.8"/>
+    <circle cx="-180" cy="46" r="4" fill="#fff" opacity="0.8"/>
+    <circle cx="-164" cy="46" r="4" fill="#fff" opacity="0.8"/>
+
+    <!-- ── RIGHT CENTRAL SOUL — green ── -->
+    <circle cx="118"  cy="-90" r="30" fill="#86EFAC"/>
+    <path d="M76 20 Q76 -38 118 -50 Q160 -38 160 20Z" fill="#16A34A"/>
+    <!-- arm to cross -->
+    <line x1="76" y1="-18" x2="48" y2="-36" stroke="#86EFAC" stroke-width="9" stroke-linecap="round"/>
+    <!-- chat bubble -->
+    <rect x="134" y="26" width="76" height="40" rx="14" fill="#16A34A" opacity="0.92"/>
+    <polygon points="152,66 168,66 160,86" fill="#16A34A" opacity="0.92"/>
+    <circle cx="148" cy="46" r="4" fill="#fff" opacity="0.8"/>
+    <circle cx="164" cy="46" r="4" fill="#fff" opacity="0.8"/>
+    <circle cx="180" cy="46" r="4" fill="#fff" opacity="0.8"/>
+
+    <!-- ── OUTER CIRCLE OF BELIEVERS ── -->
+
+    <!-- far left — sky blue -->
+    <circle cx="-190" cy="76"  r="22" fill="#7DD3FC"/>
+    <path d="M-216 130 Q-216 100 -190 94 Q-164 100 -164 130Z" fill="#0284C7"/>
+    <path d="M-204 56 Q-190 46 -176 56" fill="none" stroke="#7DD3FC" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- mid-left — amber -->
+    <circle cx="-110" cy="114" r="22" fill="#FCD34D"/>
+    <path d="M-136 168 Q-136 138 -110 132 Q-84 138 -84 168Z" fill="#D97706"/>
+
+    <!-- bottom centre — purple -->
+    <circle cx="0"    cy="140" r="22" fill="#C4B5FD"/>
+    <path d="M-26 194 Q-26 164 0 158 Q26 164 26 194Z" fill="#7C3AED"/>
+    <!-- chat bubble bottom -->
+    <rect x="-34" y="198" width="68" height="30" rx="10" fill="#7C3AED" opacity="0.85"/>
+    <polygon points="-8,198 8,198 0,188" fill="#7C3AED" opacity="0.85"/>
+    <circle cx="-16" cy="213" r="3.5" fill="#fff" opacity="0.8"/>
+    <circle cx="0"   cy="213" r="3.5" fill="#fff" opacity="0.8"/>
+    <circle cx="16"  cy="213" r="3.5" fill="#fff" opacity="0.8"/>
+
+    <!-- mid-right — coral/red -->
+    <circle cx="110"  cy="114" r="22" fill="#FCA5A5"/>
+    <path d="M84 168 Q84 138 110 132 Q136 138 136 168Z" fill="#DC2626"/>
+
+    <!-- far right — teal -->
+    <circle cx="190"  cy="76"  r="22" fill="#5EEAD4"/>
+    <path d="M164 130 Q164 100 190 94 Q216 100 216 130Z" fill="#0D9488"/>
+    <path d="M176 56 Q190 46 204 56" fill="none" stroke="#5EEAD4" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- ── GOLD CONNECTING ARC ── -->
+    <path d="M-214 130 Q-110 210 0 222 Q110 210 214 130" fill="none" stroke="#FCD34D" stroke-width="3" stroke-linecap="round" opacity="0.38"/>
+
+    <!-- connector dots -->
+    <circle cx="-164" cy="38"  r="4" fill="#FCD34D" opacity="0.45"/>
+    <circle cx="-110" cy="18"  r="4" fill="#FCD34D" opacity="0.38"/>
+    <circle cx="164"  cy="38"  r="4" fill="#FCD34D" opacity="0.45"/>
+    <circle cx="110"  cy="18"  r="4" fill="#FCD34D" opacity="0.38"/>
+
+  </g>
+</svg>
